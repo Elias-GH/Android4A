@@ -6,3 +6,4 @@ data class LoginSucess(val email: String) : LoginStatus()
 object LoginError : LoginStatus()
 object NoEmail : LoginStatus()
 object NoPassword : LoginStatus()
+    
